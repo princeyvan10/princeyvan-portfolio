@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel - Étudiant en Cybersécurité, Cloud & DevOps">
+    <title>Mon Portfolio | Cybersécurité, Cloud & DevOps</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#accueil">
+                <span class="logo-text">Portfolio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#accueil">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apropos">À Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#competences">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projets">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero-section d-flex align-items-center">
+        <div class="hero-particles" id="particles"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <p class="hero-subtitle animate-fade-in">Bienvenue sur mon portfolio</p>
+                    <h1 class="hero-title animate-fade-in-up">
+                        Bonjour, je suis <br>
+                        <span class="highlight">Prince Yvan Djine Kadji</span>
+                    </h1>
+                    <p class="hero-description animate-fade-in-up">
+                        Étudiant en informatique passionné par la cybersécurité défensive,
+                        le DevOps et l'ingénierie Cloud. Bilingue français-anglais.
+                    </p>
+                    <div class="hero-buttons animate-fade-in-up">
+                        <a href="#projets" class="btn btn-primary btn-lg me-3">
+                            <i class="bi bi-folder me-2"></i>Voir mes projets
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-envelope me-2"></i>Me contacter
+                        </a>
+                    </div>
+                    <div class="social-links animate-fade-in-up">
+                        <a href="https://github.com/princeyvan10" target="_blank" class="social-link" title="GitHub">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prince-yvan-djine-kadji-40a91737b" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image-container d-none d-lg-block">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-bg"></div>
+                        <img src="WhatsApp Image 2026-01-21 at 21.56.00.jpeg" alt="Prince Yvan Djine Kadji" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#apropos">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="apropos" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">À Propos de Moi</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Découvrez mon parcours et ma passion</p>
+            </div>
+            <div class="row align-items-center mt-5">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="number">Cybersécurité</span>
+                            <span class="text">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-content">
+                        <h3>Étudiant en Cybersécurité, Cloud & DevOps</h3>
+                        <p class="lead">
+                            Étudiant en informatique à l'UQTR passionné par la cybersécurité défensive,
+                            le DevOps et l'ingénierie Cloud.
+                        </p>
+                        <p>
+                            Formation technique approfondie avec apprentissage pratique en cybersécurité
+                            via TryHackMe (SOC Level 2) et préparation à la certification AWS Cloud Practitioner.
+                            Bilingue français-anglais avec expérience en service à la clientèle.
+                            Orienté solutions et désireux d'appliquer mes compétences dans un environnement
+                            industriel innovant pour contribuer à la sécurité et l'optimisation des infrastructures.
+                        </p>
+                        <div class="about-info mt-4">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p><strong><i class="bi bi-geo-alt me-2"></i>Localisation:</strong> Trois-Rivières, QC, Canada</p>
+                                    <p><strong><i class="bi bi-envelope me-2"></i>Email:</strong> kadjiyvan8@gmail.com</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p><strong><i class="bi bi-phone me-2"></i>Téléphone:</strong> +1 (581) 990-7014</p>
+                                    <p><strong><i class="bi bi-mortarboard me-2"></i>Statut:</strong> Étudiant à l'UQTR</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="CV_FRANCAIS_finals.pdf" download class="btn btn-primary mt-4">
+                            <i class="bi bi-download me-2"></i>Télécharger CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Mes Compétences</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="row mt-5">
+                <!-- Cybersécurité -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h4>Cybersécurité</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SOC Operations</span>
+                            <span class="skill-tag">SIEM</span>
+                            <span class="skill-tag">Wazuh</span>
+                            <span class="skill-tag">Analyse de logs</span>
+                            <span class="skill-tag">Détection d'intrusions</span>
+                            <span class="skill-tag">Kali Linux</span>
+                            <span class="skill-tag">TryHackMe</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cloud & DevOps -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h4>Cloud & DevOps</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VirtualBox</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Programmation & Systèmes -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4>Programmation & Systèmes</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Bash</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Windows</span>
+                            <span class="skill-tag">Réseaux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Progress Bars -->
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>Linux / Administration Système</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>Python / Bash Scripting</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>SIEM / Analyse SOC</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>AWS Cloud</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>Réseaux & Sécurité</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="progress-header">
+                            <span>DevOps (Git, CI/CD, Kubernetes)</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Mes Projets</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Découvrez mes réalisations récentes</p>
+            </div>
+
+            <!-- Filtres -->
+            <div class="project-filters text-center mt-4">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="security">Sécurité</button>
+                <button class="filter-btn" data-filter="cloud">Cloud</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+            </div>
+
+            <!-- Grille de projets -->
+            <div class="row mt-5" id="projectsGrid">
+                <!-- Projet 1 - Lab SOC Wazuh -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="security">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/princeyvan10" target="_blank" class="project-link" title="Code source">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Cybersécurité</span>
+                            <h4 class="project-title">Laboratoire SOC avec Wazuh</h4>
+                            <p class="project-description">
+                                Déploiement d'un environnement SIEM open source pour apprentissage pratique des opérations SOC et détection d'intrusions.
+                            </p>
+                            <div class="project-tech">
+                                <span>Wazuh</span>
+                                <span>Linux</span>
+                                <span>VirtualBox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 - Jeu éducatif -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="devops">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-controller"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/princeyvan10/United-State-Game" target="_blank" class="project-link" title="Code source">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Python</span>
+                            <h4 class="project-title">Jeu Géographie USA</h4>
+                            <p class="project-description">
+                                Application interactive avec interface graphique pour apprendre la localisation des 50 états américains.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Turtle</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 - TryHackMe -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="security">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-bug"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="TryHackMe">
+                                        <i class="bi bi-trophy"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Cybersécurité</span>
+                            <h4 class="project-title">TryHackMe SOC Level 2</h4>
+                            <p class="project-description">
+                                Formation en cybersécurité défensive et opérations SOC avec laboratoires pratiques et CTF challenges.
+                            </p>
+                            <div class="project-tech">
+                                <span>SOC</span>
+                                <span>SIEM</span>
+                                <span>CTF</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4 - AWS Cloud -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="cloud">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-cloud-arrow-up"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" title="En cours">
+                                        <i class="bi bi-hourglass-split"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Cloud</span>
+                            <h4 class="project-title">Certification AWS</h4>
+                            <p class="project-description">
+                                Préparation à la certification AWS Cloud Practitioner avec projets pratiques sur l'infrastructure cloud.
+                            </p>
+                            <div class="project-tech">
+                                <span>AWS</span>
+                                <span>EC2</span>
+                                <span>S3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 5 - Infrastructure virtualisée -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="devops">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-hdd-network"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/princeyvan10" target="_blank" class="project-link" title="Code source">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">DevOps</span>
+                            <h4 class="project-title">Lab Infrastructure Virtualisée</h4>
+                            <p class="project-description">
+                                Configuration d'infrastructure virtualisée avec VirtualBox pour simuler des scénarios de détection d'intrusions.
+                            </p>
+                            <div class="project-tech">
+                                <span>VirtualBox</span>
+                                <span>Linux</span>
+                                <span>Networking</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 6 - Scripts Automatisation -->
+                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="devops">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="bi bi-terminal"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/princeyvan10" target="_blank" class="project-link" title="Code source">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Automatisation</span>
+                            <h4 class="project-title">Scripts Bash & Python</h4>
+                            <p class="project-description">
+                                Scripts d'automatisation pour l'administration système et l'analyse de logs de sécurité.
+                            </p>
+                            <div class="project-tech">
+                                <span>Bash</span>
+                                <span>Python</span>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Me Contacter</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">N'hésitez pas à me contacter pour vos projets</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <h3>Restons en contact</h3>
+                        <p>
+                            Je suis toujours ouvert aux nouvelles opportunités et collaborations.
+                            N'hésitez pas à me contacter pour discuter de votre projet.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h5>Adresse</h5>
+                                    <p>Trois-Rivières, QC, Canada</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h5>Email</h5>
+                                    <p>kadjiyvan8@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="bi bi-phone"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h5>Téléphone</h5>
+                                    <p>+1 (581) 990-7014</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <a href="https://github.com/princeyvan10" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/prince-yvan-djine-kadji-40a91737b" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Nom complet</label>
+                                        <input type="text" class="form-control" id="name" name="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Sujet</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="bi bi-send me-2"></i>Envoyer le message
+                            </button>
+                        </form>
+                        <div id="formMessage" class="form-message mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="footer-brand">Portfolio</h4>
+                    <p class="footer-description">
+                        Étudiant en Cybersécurité, Cloud & DevOps, je sécurise
+                        et automatise les infrastructures de demain.
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-title">Liens Rapides</h5>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-title">Suivez-moi</h5>
+                    <div class="footer-social">
+                        <a href="https://github.com/princeyvan10" target="_blank" class="footer-social-link"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/prince-yvan-djine-kadji-40a91737b" target="_blank" class="footer-social-link"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Prince Yvan Djine Kadji. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#accueil" class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
