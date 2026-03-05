@@ -293,13 +293,13 @@
                 <button class="filter-btn active" data-filter="all">Tous</button>
                 <button class="filter-btn" data-filter="security">Sécurité</button>
                 <button class="filter-btn" data-filter="cloud">Cloud</button>
-                <button class="filter-btn" data-filter="devops">DevOps</button>
             </div>
 
             <!-- Grille de projets -->
             <div class="row mt-5" id="projectsGrid">
                 <!-- Projet 1 - Lab SOC Cloud OCI -->
                 <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="security cloud">
+                    <a href="https://github.com/princeyvan10/labo-soc-oci" target="_blank" style="text-decoration: none; color: inherit; display: block;">
                     <div class="project-card">
                         <div class="project-image">
                             <div class="project-placeholder">
@@ -307,9 +307,9 @@
                             </div>
                             <div class="project-overlay">
                                 <div class="project-links">
-                                    <a href="https://github.com/princeyvan10/labo-soc-oci" target="_blank" class="project-link" title="Code source">
+                                    <span class="project-link" title="Code source">
                                         <i class="bi bi-github"></i>
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +317,7 @@
                             <span class="project-category">Cybersécurité · Cloud</span>
                             <h4 class="project-title">Lab SOC Cloud-Native — OCI</h4>
                             <p class="project-description">
-                                Déploiement d'un SOC multi-région (Montréal + Toronto) sur Oracle Cloud Infrastructure avec Wazuh SIEM. Infrastructure entièrement automatisée via Terraform : VCN, NSG, Security Lists, instances Ubuntu x86_64. Installation Wazuh Manager + Indexer + Dashboard via cloud-init.
+                                Déploiement d'un SOC multi-région (Montréal + Toronto) sur Oracle Cloud Infrastructure avec Wazuh SIEM. Infrastructure entièrement automatisée via Terraform : VCN, NSG, Security Lists, instances Ubuntu x86_64.
                             </p>
                             <div class="project-tech">
                                 <span>Wazuh</span>
@@ -329,6 +329,7 @@
                             </div>
                         </div>
                     </div>
+                    </a>
                 </div>
 
                 <!-- Projet 2 - Jeu éducatif -->
@@ -421,65 +422,6 @@
                     </div>
                 </div>
 
-                <!-- Projet 5 - Infrastructure virtualisée -->
-                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="devops">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="bi bi-hdd-network"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/princeyvan10" target="_blank" class="project-link" title="Code source">
-                                        <i class="bi bi-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-category">DevOps</span>
-                            <h4 class="project-title">Lab Infrastructure Virtualisée</h4>
-                            <p class="project-description">
-                                Configuration d'infrastructure virtualisée avec VirtualBox pour simuler des scénarios de détection d'intrusions.
-                            </p>
-                            <div class="project-tech">
-                                <span>VirtualBox</span>
-                                <span>Linux</span>
-                                <span>Networking</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Projet 6 - Scripts Automatisation -->
-                <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="devops">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <div class="project-placeholder">
-                                <i class="bi bi-terminal"></i>
-                            </div>
-                            <div class="project-overlay">
-                                <div class="project-links">
-                                    <a href="https://github.com/princeyvan10" target="_blank" class="project-link" title="Code source">
-                                        <i class="bi bi-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <span class="project-category">Automatisation</span>
-                            <h4 class="project-title">Scripts Bash & Python</h4>
-                            <p class="project-description">
-                                Scripts d'automatisation pour l'administration système et l'analyse de logs de sécurité.
-                            </p>
-                            <div class="project-tech">
-                                <span>Bash</span>
-                                <span>Python</span>
-                                <span>SQL</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
