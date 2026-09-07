@@ -675,6 +675,108 @@ a:hover {
 }
 
 /* ==========================================================================
+   Certifications Section
+   ========================================================================== */
+.certification-card {
+    background: var(--white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+    height: 100%;
+}
+
+.certification-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-xl);
+}
+
+.certification-image-link {
+    position: relative;
+    display: block;
+    height: 220px;
+    overflow: hidden;
+}
+
+.certification-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.certification-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.certification-image-link:hover .certification-overlay {
+    opacity: 1;
+}
+
+.certification-zoom {
+    width: 50px;
+    height: 50px;
+    background: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.certification-info {
+    padding: 25px;
+}
+
+.certification-issuer {
+    display: inline-block;
+    background: var(--bg-gray);
+    color: var(--primary-color);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.certification-title {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+}
+
+.certification-meta {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.certification-verify {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.certification-verify:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
    Contact Section
    ========================================================================== */
 .contact-info h3 {
